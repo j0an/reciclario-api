@@ -1,4 +1,4 @@
-reciclario-api
+Reciclario API
 ==============
 
 API para el sitio Reciclario.com.ar para el #BaHAckatonVerde del GCBA.
