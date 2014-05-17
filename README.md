@@ -10,13 +10,18 @@ Creamos una API publica para acceder a esta información y asi desarrollar aplic
 
 ## Endpoints
 
-### Residuos reciclables/no reciclables/compostables/otros
+### Listado de residuos reciclables/no reciclables/compostables/otros
 
 ```
 GET http://reciclario.com.ar/?json=get_posts&post_type=reciclable
 GET http://reciclario.com.ar/?json=get_posts&post_type=no_reciclable
 GET http://reciclario.com.ar/?json=get_posts&post_type=compostable
 GET http://reciclario.com.ar/?json=get_posts&post_type=otras
+```
+
+### Busqueda de residuos
+```
+GET http://reciclario.com.ar/?json=get_search_results&search=film
 ```
 
 #### Response
@@ -71,5 +76,4 @@ GET http://reciclario.com.ar/?json=get_posts&post_type=otras
      }]
      ...
 }
-
-
+```
