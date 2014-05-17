@@ -19,6 +19,7 @@ GET http://reciclario.com.ar/?json=get_posts&post_type=compostable
 GET http://reciclario.com.ar/?json=get_posts&post_type=otras
 ```
 
+#### Response
 ```
 {
     "status": "ok",
