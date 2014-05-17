@@ -43,12 +43,6 @@ GET http://reciclario.com.ar/?json=get_posts&post_type=otras
             "comments": null,
             "attachments": [{
                 "id": 883,
-                "url": "http://reciclario.com.ar/wp-content/uploads/yerba.jpg",
-                "slug": "yerba",
-                "title": "yerba",
-                "description": "",
-                "caption": "",
-                "parent": 882,
                 "mime_type": "image/jpeg",
                 "images": {
                     "full": {
