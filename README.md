@@ -13,15 +13,15 @@ Creamos una API publica para acceder a esta información y asi desarrollar aplic
 ### Listado de residuos reciclables/no reciclables/compostables/otros
 
 ```
-GET http://reciclario.com.ar/?json=get_posts&post_type=reciclable
-GET http://reciclario.com.ar/?json=get_posts&post_type=no_reciclable
-GET http://reciclario.com.ar/?json=get_posts&post_type=compostable
-GET http://reciclario.com.ar/?json=get_posts&post_type=otras
+GET http://reciclario.com.ar/?json=get_posts&post_type=reciclable&page=1
+GET http://reciclario.com.ar/?json=get_posts&post_type=no_reciclable&page=1
+GET http://reciclario.com.ar/?json=get_posts&post_type=compostable&page=1
+GET http://reciclario.com.ar/?json=get_posts&post_type=otras&page=1
 ```
 
 ### Busqueda de residuos
 ```
-GET http://reciclario.com.ar/?json=get_search_results&search=film
+GET http://reciclario.com.ar/?json=get_search_results&search=film&page=1
 ```
 
 #### Response
